@@ -193,8 +193,25 @@ footer p {
   }
 
 }
-@media (min-width: 768px) {
-  form.vacation-form input, form.vacation-form select {
-    width: 50px; /* Adjust width to better suit larger screens */
+@media all and (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
   }
+
+  .logo {
+    margin: 14px 0;
+    padding-top: 0;
+  }
+
+  header nav {
+    margin-top: 8px;
+    align-items: center;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+
 }
